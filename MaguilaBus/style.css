@@ -27,3 +27,13 @@
 .h-30 {
   height: 30px;
 }
+
+.new-class2 {
+  background-color: #EF44; 
+  border: 1px solid; 
+  padding: 13px;
+  width: 5px;
+  margin-bottom: 5px;
+  font:bold;
+  height: 40px;
+  }

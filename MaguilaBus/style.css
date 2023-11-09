@@ -76,3 +76,13 @@
   font-size: x-large;
   font-weight: bold;
 }
+
+.botao1 {
+  background-color: lightslategray;
+  padding: 10px;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  border-radius: 48%;
+}
+

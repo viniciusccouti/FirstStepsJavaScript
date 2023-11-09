@@ -22,7 +22,7 @@
   background-color: #EF4444; /* This sets the background color to red-700 */
   border: 3px solid; /* This sets a 2-pixel solid border */
   padding: 13px;
-}
+ }
 
 .h-30 {
   height: 30px;
@@ -32,8 +32,38 @@
   background-color: #EF44; 
   border: 1px solid; 
   padding: 13px;
-  width: 5px;
+  width: 25px;
   margin-bottom: 5px;
   font:bold;
-  height: 40px;
+  height: 8px;
   }
+
+  .selecionado {
+    background-color: #6200B3;
+  }
+
+  .ocupado {
+    background-color: #72e1d1;
+  }
+
+  
+.bus-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Adjust the gap between seats */
+}
+
+.mr2 {
+  margin-right: 1rem; 
+}
+
+.clicked{
+  /* Set the initial styles */
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.clicked:hover {
+  /* Set the styles when the element is hovered */
+  transform: scale(1.3); /* Increase the size by 10% */
+}
+
